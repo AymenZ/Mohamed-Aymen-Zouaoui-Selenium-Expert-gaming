@@ -1,0 +1,5 @@
+scenario,username,password
+utilisateur_inconnu,utilisateur.inexistant.qa@example.com,MotDePasse#Faux123
+mot_de_passe_vide,utilisateur.inexistant.qa@example.com,
+identifiant_vide,,MotDePasse#Faux123
+champs_vides,,

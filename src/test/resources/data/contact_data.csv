@@ -1,0 +1,3 @@
+scenario,name,email,subject,message
+email_sans_arobase,Testeur QA,adresse-invalide,Test automatise,Message de test automatise - ne pas traiter
+email_domaine_absent,Testeur QA,qa@,Test automatise,Message de test automatise - ne pas traiter

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Expert Gaming - Suite complete (TC01 a TC20)" verbose="1">
+
+    <listeners>
+        <!-- Capture d'ecran + trace sur echec, et rapport HTML reports/execution-report.html -->
+        <listener class-name="tn.expertgaming.listeners.TestListener"/>
+    </listeners>
+
+    <test name="1 - Navigation et recherche (TC01-TC04)">
+        <classes>
+            <class name="tn.expertgaming.tests.NavigationTest"/>
+            <class name="tn.expertgaming.tests.SearchTest"/>
+        </classes>
+    </test>
+
+    <test name="2 - Catalogue, panier et commande (TC05-TC09)">
+        <classes>
+            <class name="tn.expertgaming.tests.ProductTest"/>
+            <class name="tn.expertgaming.tests.CartTest"/>
+            <class name="tn.expertgaming.tests.CheckoutTest"/>
+        </classes>
+    </test>
+
+    <test name="3 - Compte, comparateur, suivi, contact, pages legales (TC10-TC15)">
+        <classes>
+            <class name="tn.expertgaming.tests.AccountTest"/>
+            <class name="tn.expertgaming.tests.CompareTest"/>
+            <class name="tn.expertgaming.tests.TrackOrderTest"/>
+            <class name="tn.expertgaming.tests.ContactTest"/>
+            <class name="tn.expertgaming.tests.LegalPagesTest"/>
+        </classes>
+    </test>
+
+    <test name="4 - Qualites transverses (TC16-TC20)">
+        <classes>
+            <class name="tn.expertgaming.tests.QualityTest"/>
+            <class name="tn.expertgaming.tests.CrossBrowserTest"/>
+            <class name="tn.expertgaming.tests.SecurityTest"/>
+        </classes>
+    </test>
+
+</suite>

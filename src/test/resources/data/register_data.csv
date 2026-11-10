@@ -1,0 +1,5 @@
+scenario,email
+sans_arobase,not-an-email
+domaine_absent,test@
+local_absent,@example.com
+espaces,test user@example.com

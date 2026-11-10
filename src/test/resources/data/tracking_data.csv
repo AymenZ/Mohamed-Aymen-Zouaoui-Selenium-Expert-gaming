@@ -1,0 +1,3 @@
+scenario,orderid,email
+commande_inexistante,99999999,qa.inexistant@example.com
+numero_non_numerique,ABCDEF,qa.inexistant@example.com
